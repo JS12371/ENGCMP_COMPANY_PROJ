@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Press - TrueLink</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <!-- Press Header -->
+        <section class="mb-16 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">Press & Media</h1>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto">Latest news, press releases, and media resources about TrueLink.</p>
+        </section>
+
+        <!-- Press Kit Section -->
+        <section class="bg-white rounded-xl shadow-md p-8 md:p-12 mb-16">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i data-feather="download" class="text-green-600"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900">Press Kit</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8 mb-10">
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
+                        <div class="flex items-center mb-4">
+                            <i data-feather="image" class="text-green-600 mr-3"></i>
+                            <h3 class="text-xl font-semibold">Brand Assets</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Download our logo, brand colors, and other visual assets.</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium">
+                            Download <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                    <div class="border border-gray-200 rounded-lg p-6 hover:shadow-md transition">
+                        <div class="flex items-center mb-4">
+                            <i data-feather="file-text" class="text-green-600 mr-3"></i>
+                            <h3 class="text-xl font-semibold">Company Fact Sheet</h3>
+                        </div>
+                        <p class="text-gray-600 mb-4">Key information about TrueLink in a one-page format.</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium">
+                            Download <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Press Releases -->
+        <section class="mb-16">
+            <div class="flex items-center mb-8">
+                <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                    <i data-feather="file-text" class="text-green-600"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900">Press Releases</h2>
+            </div>
+
+            <div class="space-y-6">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900">TrueLink Raises $15M Series A to Expand Ethical Social Platform</h3>
+                            <span class="text-gray-500 text-sm mt-2 md:mt-0">June 15, 2023</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Funding will accelerate product development and community growth for the wellness-focused social network.</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium">
+                            Read More <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900">TrueLink Launches Waitlist for Anti-Addiction Social Platform</h3>
+                            <span class="text-gray-500 text-sm mt-2 md:mt-0">March 8, 2023</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">New social network designed to combat digital addiction and promote meaningful connections opens for early signups.</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium">
+                            Read More <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <div class="p-6 md:p-8">
+                        <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                            <h3 class="text-xl font-bold text-gray-900">Former Social Media Executives Launch TrueLink to Fix Broken Platforms</h3>
+                            <span class="text-gray-500 text-sm mt-2 md:mt-0">January 12, 2023</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Team of industry veterans aims to build social media that respects users' time and mental health.</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium">
+                            Read More <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Media Coverage -->
+        <section class="mb-16">
+            <div class="flex items-center mb-8">
+                <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                    <i data-feather="book-open" class="text-green-600"></i>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900">Media Coverage</h2>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/technology/640x360/1" alt="Tech magazine" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">"The Anti-Facebook" - Tech Today</h3>
+                        <p class="text-gray-600 text-sm mb-4">June 22, 2023</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium text-sm">
+                            Read Article <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/office/640x360/2" alt="Business journal" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">"TrueLink's Ethical Approach to Social" - Business Weekly</h3>
+                        <p class="text-gray-600 text-sm mb-4">May 15, 2023</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium text-sm">
+                            Read Article <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition">
+                    <img src="http://static.photos/people/640x360/3" alt="Psychology magazine" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold text-gray-900 mb-2">"How TrueLink Designs for Mental Health" - Mind Matters</h3>
+                        <p class="text-gray-600 text-sm mb-4">April 3, 2023</p>
+                        <a href="#" class="inline-flex items-center text-green-600 font-medium text-sm">
+                            Read Article <i data-feather="arrow-right" class="w-4 h-4 ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Press Contact -->
+        <section class="bg-green-50 rounded-2xl p-8 md:p-12">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i data-feather="mail" class="text-green-600"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900">Press Contact</h2>
+                </div>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">Media Inquiries</h3>
+                        <p class="text-gray-600 mb-4">For interview requests or media questions, please contact:</p>
+                        <div class="flex items-start mb-4">
+                            <i data-feather="user" class="text-green-600 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-medium text-gray-900">Sarah Chen</p>
+                                <p class="text-gray-600">Head of Communications</p>
+                                <p class="text-gray-600">press@truelink.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-900 mb-4">General Questions</h3>
+                        <p class="text-gray-600 mb-4">For other questions about TrueLink:</p>
+                        <div class="flex items-start">
+                            <i data-feather="help-circle" class="text-green-600 mr-3 mt-1"></i>
+                            <div>
+                                <p class="font-medium text-gray-900">Support Team</p>
+                                <p class="text-gray-600">hello@truelink.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    <script>feather.replace();</script>
+    <script src="script.js"></script>
+</body>
+</html>
