@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - TrueLink</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="components/navbar.js"></script>
+    <script src="components/footer.js"></script>
+</head>
+<body class="bg-gray-50">
+    <custom-navbar></custom-navbar>
+
+    <main class="container mx-auto px-4 py-12">
+        <!-- Brand Story Section -->
+        <section class="bg-white rounded-xl shadow-md p-8 md:p-12 mb-16">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i data-feather="book" class="text-green-600"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900">Brand Story</h2>
+                </div>
+                <div class="prose max-w-none">
+                    <p class="text-lg text-gray-700">TrueLink was founded in 2022 by a team of former social media executives who became disillusioned with how platforms were designed to exploit human psychology rather than serve genuine needs.</p>
+                    <p class="text-lg text-gray-700 mt-4">Our name reflects our commitment to creating "true links" between people - connections that are meaningful, intentional, and enriching rather than superficial or manipulative.</p>
+                    <p class="text-lg text-gray-700 mt-4">From our green color scheme symbolizing growth and renewal to our circular logo representing connection and wholeness, every aspect of our brand reflects our values of authenticity and human-centered design.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Mission Statement Section -->
+        <section class="bg-green-50 rounded-xl p-8 md:p-12 mb-16">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8">
+                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mr-4">
+                        <i data-feather="target" class="text-green-600"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900">Mission Statement</h2>
+                </div>
+                <div class="prose max-w-none">
+                    <blockquote class="text-2xl italic text-gray-700 border-l-4 border-green-600 pl-6 py-2">
+                        "To create digital spaces that enhance rather than replace human connection, fostering relationships that enrich lives both online and offline."
+                    </blockquote>
+                    <p class="text-lg text-gray-700 mt-6">Our mission guides every decision we make, from product design to business practices. We measure our success not by engagement metrics or ad revenue, but by the quality of connections our platform facilitates.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="bg-white rounded-xl shadow-md p-8 md:p-12 mb-16">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i data-feather="info" class="text-green-600"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900">About Us</h2>
+                </div>
+                <div class="prose max-w-none">
+                    <p class="text-lg text-gray-700">TrueLink is more than just another social platform - we're a movement to reclaim digital spaces for human connection. Our team of technologists, psychologists, and community builders are united by a shared vision of ethical technology.</p>
+                    <p class="text-lg text-gray-700 mt-4">We're headquartered in San Francisco but operate as a distributed team across North America and Europe. Our investors include ethical tech funds and impact investors who share our values.</p>
+                    <p class="text-lg text-gray-700 mt-4">What makes us different isn't just our features, but our foundational philosophy that technology should serve human wellbeing above all else.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diversity Policy Section -->
+        <section class="bg-white rounded-xl shadow-md p-8 md:p-12 mb-16">
+            <div class="max-w-4xl mx-auto">
+                <div class="flex items-center mb-8">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
+                        <i data-feather="globe" class="text-green-600"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900">Diversity Policy</h2>
+                </div>
+                <div class="prose max-w-none">
+                    <h3 class="text-xl font-semibold text-gray-900 mb-3">Our Commitment</h3>
+                    <p class="text-lg text-gray-700">TrueLink is committed to building a diverse, inclusive company and community. We believe diverse perspectives create better products and more vibrant communities.</p>
+                    
+                    <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">In Our Workplace</h3>
+                    <p class="text-lg text-gray-700">We actively recruit and support employees from underrepresented backgrounds, provide unconscious bias training, and maintain equitable compensation practices.</p>
+                    
+                    <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">In Our Product</h3>
+                    <p class="text-lg text-gray-700">We design for accessibility, conduct regular algorithmic fairness audits, and provide tools for users to find and support diverse voices.</p>
+                    
+                    <h3 class="text-xl font-semibold text-gray-900 mt-6 mb-3">In Our Community</h3>
+                    <p class="text-lg text-gray-700">We enforce strict anti-harassment policies, provide content moderation in multiple languages, and actively promote marginalized voices through our recommendation systems.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Team Section -->
+        <section class="mb-16" id="team">
+<h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Meet The Team</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="http://static.photos/people/640x360/1" alt="Team member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">Alex Johnson</h3>
+                        <p class="text-green-600 font-medium mb-3">CEO & Founder</p>
+                        <p class="text-gray-600">Former social media researcher turned entrepreneur, passionate about ethical tech design.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="http://static.photos/people/640x360/2" alt="Team member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">Sam Lee</h3>
+                        <p class="text-green-600 font-medium mb-3">CTO</p>
+                        <p class="text-gray-600">Software engineer with expertise in building humane technology platforms.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="http://static.photos/people/640x360/3" alt="Team member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">Taylor Chen</h3>
+                        <p class="text-green-600 font-medium mb-3">Head of Product</p>
+                        <p class="text-gray-600">UX designer focused on creating interfaces that respect users' time and attention.</p>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl shadow-md overflow-hidden">
+                    <img src="http://static.photos/people/640x360/4" alt="Team member" class="w-full h-64 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-1">Jordan Smith</h3>
+                        <p class="text-green-600 font-medium mb-3">Community Lead</p>
+                        <p class="text-gray-600">Social psychologist dedicated to fostering healthy online communities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="bg-green-50 rounded-2xl p-12">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Our Core Values</h2>
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div class="bg-white p-6 rounded-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="heart" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Human-Centered Design</h3>
+                    <p class="text-gray-600">We prioritize user wellbeing over engagement metrics, designing features that support rather than exploit human psychology.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="shield" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Transparency</h3>
+                    <p class="text-gray-600">We're open about our business model, data practices, and algorithmic decisions—no hidden manipulation.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="users" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Authentic Connection</h3>
+                    <p class="text-gray-600">We create space for meaningful interactions by limiting superficial engagement features.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="clock" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Time Well Spent</h3>
+                    <p class="text-gray-600">We help users be intentional with their time through built-in usage reminders and no infinite scroll.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="lock" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Privacy First</h3>
+                    <p class="text-gray-600">We collect minimal data and never sell user information to advertisers.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg">
+                    <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mb-4">
+                        <i data-feather="globe" class="text-green-600"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-3">Inclusive Community</h3>
+                    <p class="text-gray-600">We actively cultivate diverse, respectful spaces where all voices can be heard.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <custom-footer></custom-footer>
+    <script>feather.replace();</script>
+    <script src="script.js"></script>
+</body>
+</html>
